@@ -1,0 +1,83 @@
+
+# Level 1
+# Seinfeld!
+
+
+START_LEVEL
+level_name:Giddy Up!
+ball_velocities:45,550 -45,550 -30,550 30,550 45,550 -45,550 -30,550 30,550
+background:color(black)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/special_blocks_definitions.txt
+blocks_start_x:25
+blocks_start_y:30
+row_height:25
+num_blocks:71
+START_BLOCKS
+GGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGG
+-----t
+G-------------G
+G-------------G
+G-------------G
+G-------------G
+G-------------G
+-
+-
+GGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGG
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Sherlock
+
+START_LEVEL
+level_name:The Game Is On!
+ball_velocities:-60,500 60,500
+background:color(black)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/special_blocks_definitions.txt
+blocks_start_x:25
+blocks_start_y:50
+row_height:100
+num_blocks:23
+START_BLOCKS
+--kkkkkkkkkkk
+----u
+-
+--kkkkkkkkkkk
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+#  Friends!
+
+START_LEVEL
+level_name: I'll B There 4 U!
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:color(black)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/special_blocks_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:43
+START_BLOCKS
+rrooyygggbbppcc
+-----n-
+--oo---------cc
+-
+--oo---------cc
+-
+--oo---------cc
+-
+rrooyygggbbppcc
+
+END_BLOCKS
+END_LEVEL

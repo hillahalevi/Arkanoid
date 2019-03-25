@@ -1,0 +1,82 @@
+
+
+# Level 1
+# Brain Science
+
+
+START_LEVEL
+level_name:Brain Science
+ball_velocities:45,550 -45,550 -30,550 30,550 45,550 -45,550 -30,550 30,550
+background:image(background_images/brain.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:90
+START_BLOCKS
+-
+-
+ttttttttttttttt
+rrrrrrrrrrrrrrr
+ttttttttttttttt
+rrrrrrrrrrrrrrr
+ttttttttttttttt
+rrrrrrrrrrrrrrr
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+# Computer Science
+
+START_LEVEL
+level_name: Computer Science
+ball_velocities:-60,500 -45,500 -30,500 -15,500 15,500 30,500 45,500 60,500
+background:image(background_images/Computer.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:45
+START_BLOCKS
+-
+-
+-
+-
+-
+GGGGGGGGGGGGGGG
+qwqwqwqwqwqwqwq
+GGGGGGGGGGGGGGG
+
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+# Level 3
+# exam_time
+
+START_LEVEL
+level_name:Finals !
+ball_velocities:-60,500 60,500
+background:color(black)
+paddle_speed:650
+paddle_width:200
+block_definitions:definitions/exams_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:50
+row_height:100
+num_blocks:4
+START_BLOCKS
+--u--u---
+-
+--u--u---
+END_BLOCKS
+END_LEVEL

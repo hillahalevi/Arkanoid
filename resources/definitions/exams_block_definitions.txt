@@ -1,0 +1,6 @@
+# block definitions
+default stroke:color(blue)
+bdef symbol:u width:300 height:160 hit_points:9 fill:image(block_images/exam.png) fill-6:image(block_images/3.jpg) fill-5:image(block_images/3.jpg) fill-4:image(block_images/3.jpg) fill-3:image(block_images/2.jpg) fill-2:image(block_images/2.jpg) fill-1:image(block_images/2.jpg)
+
+# spacers definitions
+sdef symbol:- width:30
